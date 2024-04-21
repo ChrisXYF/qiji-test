@@ -1,0 +1,23 @@
+.partnerList {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+.partnerList-item {
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 25px;
+    white-space: wrap;
+    padding: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.partnerList-date {
+    margin-bottom: 15px;
+}
+.active {
+    border: 1px solid rgb(0, 106, 255);
+}
